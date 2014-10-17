@@ -1,0 +1,14 @@
+{
+  "name": "controller",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "frame": false,
+    "position": "center",
+    "width": 700,
+    "height": 300
+  },
+  "dependencies": {
+    "keydown": "0.0.3"
+  }
+}
