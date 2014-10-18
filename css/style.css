@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+.header {
+  background-color: #333;
+  color: #eee;
+  padding: 10px;
+  -webkit-app-region: drag;
+}
+.content {
+  padding: 10px;
+}

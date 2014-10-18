@@ -3,12 +3,13 @@
   "main": "index.html",
   "window": {
     "toolbar": false,
-    "frame": false,
+    "frame": true,
     "position": "center",
-    "width": 700,
-    "height": 300
+    "width": 600,
+    "height": 250
   },
   "dependencies": {
+    "finch-robot": "0.0.1",
     "keydown": "0.0.3"
   }
 }
