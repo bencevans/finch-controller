@@ -2,19 +2,26 @@
 <html>
 <head>
   <title>Finch Controller</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <div class="header">
-    Finch Controller
-  </div>
-
   <div class="content" id="main">
-    <h1>Finding Finch...</h1>
-    We are using node.js <script>document.write(process.version)</script>.
+    <h1>Finding Finch<span id="loadingdots">...</span></h1>
+    <p>Is Finch Plugged In? <a href="troubleshooting.html" title="Get Help">Troubleshooting</a></p>
+    <p></p>
   </div>
 
   <script src="js/app.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script>
+    setInterval(function() {
+      if(document.getElementById('loadingdots').innerHTML.length < 3) {
+        document.getElementById('loadingdots').innerHTML += '.';
+      } else {
+        document.getElementById('loadingdots').innerHTML = '';
+      }
+    }, 500);
+  </script>
 </body>
 </html>

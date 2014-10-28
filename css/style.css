@@ -1,12 +1,15 @@
 body {
+  font-family: Ubuntu;
+  font-weight: lighter;
+  color: #111;;
   margin: 0;
 }
-.header {
-  background-color: #333;
-  color: #eee;
-  padding: 10px;
-  -webkit-app-region: drag;
-}
+
 .content {
-  padding: 10px;
+  padding: 20px;
+}
+
+#main {
+  color: #000;
+  padding: 50px;
 }

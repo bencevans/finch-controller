@@ -14,7 +14,6 @@ function findFinch() {
     finch = Finch();
   } catch(e) {
     finch = false;
-    console.log('Unable to find finch')
   }
 
   if(!finch) {
