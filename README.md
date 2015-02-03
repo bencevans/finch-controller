@@ -1,7 +1,7 @@
 
 # finch-controller
 
-Desktop application to control your Finch.
+Desktop application to control your [Finch](http://www.finchrobot.com/).
 
 ## Screenshots
 
