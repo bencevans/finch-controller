@@ -18,3 +18,7 @@ npm install
 bower install
 nw index.html
 ```
+
+## Licence
+
+MIT
